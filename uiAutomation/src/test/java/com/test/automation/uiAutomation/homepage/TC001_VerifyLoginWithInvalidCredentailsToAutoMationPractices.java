@@ -29,6 +29,7 @@ public class TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices extend
 		homepage.loginToApplication("test@gmail.com", "password123");
 		Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
 		log.info("=========== Finished verifyLoginWithInvalidCredentails Test=============");
+		log.info("=========== Finished verifyLoginWithInvalidCredentails Test=============");
 	}
 	
 //	@AfterClass
