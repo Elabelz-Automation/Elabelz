@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homepage.TC004_VerifyLoginWithJavaScriptExecutator">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC004_VerifyLoginWithJavaScriptExecutator -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink">
+        <methods>
+          <include name="endTest"/>
+          <include name="verifyFacebookLink"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink -->
+      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <methods>
+          <include name="endTest"/>
+          <include name="verifyLoginWithDifferentRecords" invocation-numbers="0 1 2 3 4 5 6"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart">
+        <methods>
+          <include name="verifyAaddToCart"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToBasket_AutomationPractices">
+        <methods>
+          <include name="verifyAddToBasket"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToBasket_AutomationPractices -->
+      <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices">
+        <methods>
+          <include name="verifyLoginWithInvalidCredentails"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices -->
+      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verifyRegistration"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
+      <class name="com.test.automation.uiAutomation.addToCart.VerifyAddProductToCartAndDeleteFromCart">
+        <methods>
+          <include name="assigment"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.VerifyAddProductToCartAndDeleteFromCart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
